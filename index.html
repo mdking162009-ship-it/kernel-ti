@@ -4,17 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KERNEL-T.I | GTF - Games The Fato</title>
-  <!-- Aqui ligamos a folha de estilos -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- Botão de exportar PDF -->
   <button class="btn-pdf" onclick="window.print()">📄 Exportar PDF</button>
 
-  <!-- Barra de navegação -->
   <nav>
-    <a href="#" class="logo">GTF</a>
+    <a href="#home" class="logo">GTF</a>
     <ul class="nav-links">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">Sobre</a></li>
@@ -23,38 +19,60 @@
     </ul>
   </nav>
 
-  <!-- Seção Principal (Hero) -->
   <section id="home" class="hero">
     <div class="content">
       <span class="badge">🎮 BY GTF — GAMES THE FATO</span>
       <h1>KERNEL-T.I</h1>
       <p class="subtitle">Indie Office Survival Simulator</p>
-      <p class="desc">Sobreviva ao caos do departamento de TI. Gerencie servidores, evite quedas de energia e mantenha a sanidade.</p>
+      <p class="desc">Sobreviva ao caos do departamento de TI. Gerencie servidores, evite quedas de energia e mantenha a sanidade enquanto o escritório desmorona.</p>
       <a href="#about" class="btn">Descubra o Jogo</a>
     </div>
   </section>
 
-  <!-- Seção Sobre -->
   <section id="about" class="section">
     <h2>Por que "KERNEL-T.I"?</h2>
     <div class="cards">
       <div class="card">
-        <h3>️ KERNEL</h3>
-        <p>Em computação, o kernel é o núcleo do sistema. Se ele falha, tudo entra em colapso. No jogo, <strong>você é o kernel</strong>.</p>
+        <h3>⚙️ KERNEL</h3>
+        <p>Em computação, o kernel é o núcleo do sistema. Se ele falha, tudo entra em colapso. No jogo, <strong>você é o kernel</strong>: se parar de resolver problemas, o escritório cai.</p>
       </div>
       <div class="card">
         <h3>💻 T.I</h3>
-        <p>Tecnologia da Informação — onde o caos acontece. Também remete ao <strong>Titânio</strong>: resistente, essencial e inquebrável.</p>
+        <p>Tecnologia da Informação — onde o caos acontece. Também remete ao <strong>Titânio</strong> (Ti): resistente, essencial e inquebrável sob pressão.</p>
       </div>
     </div>
   </section>
 
-  <!-- Rodapé -->
-  <footer id="contact">
+  <section id="features" class="section">
+    <h2>Funcionalidades Principais</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>⚡ Quedas de Energia</h3>
+        <p>A mecânica estrela. Quando a energia cai, tudo para. Use a lanterna (se tiver pilhas) e corra para o painel antes do colapso total.</p>
+      </div>
+      <div class="card">
+        <h3>😤 Sistema de Stress</h3>
+        <p>5 estados visuais. Do calmo ao pânico total, seu personagem reflete a pressão em tempo real.</p>
+      </div>
+      <div class="card">
+        <h3>💰 Economia TechCoin</h3>
+        <p>Ganhe moedas resolvendo tarefas. Compre cabos, pilhas, peças e upgrades para sobreviver mais tempo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Entre em Contato</h2>
+    <p style="text-align:center; color:var(--text-dim); margin-bottom:25px;">Tem ideias, sugestões ou quer ajudar o projeto? Envie uma mensagem!</p>
+    <div style="text-align:center;">
+      <a href="mailto:seuemail@exemplo.com" class="btn">📧 Enviar Email</a>
+    </div>
+  </section>
+
+  <footer>
     <p>© 2026 GTF — Games The Fato. Desenvolvido com 💙.</p>
   </footer>
 
-  <!-- Aqui ligamos o JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>
